@@ -1,27 +1,31 @@
 body {
-    margin: 40px;
     font-family: Optima, sans-serif;
-    background-color: white;
+    height: auto;
+    background-image: url("./images/watercolor2-web.jpg");
+    background-attachment: fixed;
 }
 
-span {
+img {
+    width: 300px;
+}
+
+.main-title {
+    text-align: left;
     font-size: 50px;
     font-style: bold;
 }
 
-div {
-    height: auto;
-    padding: 5px;
-    background-image: url("./images/watercolor2-web.jpg");
-    background-attachment: fixed;
-    background-color: #b3e6ff;
+.subtitle {
     text-align: center;
+
     font-size: 20px;
     font-style: bold;
 }
 
-#title {
-    text-align: left;
+.textbox {
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
 }
 
 a {
